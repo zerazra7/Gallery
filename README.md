@@ -12,4 +12,5 @@ A personal gallery website showcasing moments from my Erasmus exchange in Maribo
 HTML · CSS · Vanilla JavaScript — no external libraries
 
 ## Live Preview
-> _Add your GitHub Pages link here_
+<img width="2850" height="1270" alt="image" src="https://github.com/user-attachments/assets/7a7f6ce2-9f5d-4c89-b0db-4c7dff07c837" />
+
