@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erasmus Anılarım — Galeri</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Erasmus Memories</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link active" href="gallery.html">Gallery</a>
+      <a class="nav-link" href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page">
+      <h1>Gallery</h1>
+      <p class="muted">Filter, then click a photo: you enter the memory mode. ✨</p>
+
+      <div class="filters" id="filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="city">City</button>
+        <button class="chip" data-filter="friends">Friends</button>
+        <button class="chip" data-filter="nature">Nature</button>
+        <button class="chip" data-filter="travel">Travel</button>
+      </div>
+
+      <div class="grid" id="grid">
+        <!-- Fotoğrafların isimlerini data/ içindekilere göre değiştir -->
+
+        <article class="tile" data-tags="city,travel">
+          <img src="data/img1.jpg" alt="Maribor streets">
+          <div class="tile-body">
+            <h3>Maribor streets</h3>
+            <p>First days lost in the city moment.</p>
+            <span class="tag">city</span><span class="tag">travel</span>
+          </div>
+        </article>
+
+        <article class="tile" data-tags="friends">
+          <img src="data/img2.jpg" alt="New people">
+          <div class="tile-body">
+            <h3>New people</h3>
+            <p>Language mixed, energy high. Classic Erasmus beginning.</p>
+            <span class="tag">friends</span>
+          </div>
+        </article>
+
+        <article class="tile" data-tags="nature">
+          <img src="data/img3.jpg" alt="Nature escape">
+          <div class="tile-body">
+            <h3>Nature escape</h3>
+            <p>When you step out of the city, you feel like "oh, the world exists".</p>
+            <span class="tag">nature</span>
+          </div>
+        </article>
+
+        <article class="tile" data-tags="travel,city">
+          <img src="data/img4.jpg" alt="Small trip">
+          <div class="tile-body">
+            <h3>Small trip</h3>
+            <p>Train + coffee + unplanned walk = happiness and Vienna</p>
+            <span class="tag">travel</span><span class="tag">city</span>
+          </div>
+        </article>
+
+        <article class="tile" data-tags="friends,travel">
+          <img src="data/img5.jpg" alt="Team work">
+          <div class="tile-body">
+            <h3>Team work</h3>
+            <p>Gingerbread cookies and laughter.</p>
+            <span class="tag">friends</span><span class="tag">travel</span>
+          </div>
+        </article>
+
+        <article class="tile" data-tags="nature,travel">
+          <img src="data/img6.jpg" alt="Scenery">
+          <div class="tile-body">
+            <h3>Scenery</h3>
+            <p>When you see the mountains, I say: "Okay, this is my place".</p>
+            <span class="tag">nature</span><span class="tag">travel</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Slideshow Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <button class="modal-close" id="closeModal" aria-label="Close">✕</button>
+    <button class="modal-nav left" id="prevBtn" aria-label="Previous">‹</button>
+    <img class="modal-img" id="modalImg" alt="">
+    <button class="modal-nav right" id="nextBtn" aria-label="Next">›</button>
+    <p class="modal-caption" id="modalCaption"></p>
+  </div>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Erasmus Memories - Zehra Azra Giray</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

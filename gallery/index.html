@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erasmus Memories — Home</title>
+
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Erasmus Memories</a>
+
+    <!-- Mobil cihazlar için hamburger menü butonu -->
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav">
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="gallery.html">Gallery</a>
+      <a class="nav-link" href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Ana giriş (hero) bölümü -->
+    <section class="hero hero-home">
+
+      <div class="hero-text">
+        <h1>Memories from Erasmus.</h1>
+        <p>
+          A personal gallery website showcasing moments, places and people from my Erasmus
+          experience in Maribor, Slovenia.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="gallery.html">Go to Gallery</a>
+          <a class="btn" href="about.html">About Erasmus</a>
+        </div>
+      </div>
+
+      <div class="hero-slider">
+        <img src="data/img7.jpg" class="slide active" alt="Erasmus memory 1">
+        <img src="data/img8.jpg" class="slide" alt="Erasmus memory 2">
+        <img src="data/img9.jpg" class="slide" alt="Erasmus memory 3">
+        <img src="data/img10.jpg" class="slide" alt="Erasmus memory 4">
+        <img src="data/img11.jpg" class="slide" alt="Erasmus memory 5">
+        <img src="data/img12.jpg" class="slide" alt="Erasmus memory 6">
+        <img src="data/img13.jpg" class="slide" alt="Erasmus memory 7">
+        <img src="data/img14.jpg" class="slide" alt="Erasmus memory 8">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Erasmus Memories — Zehra Azra Giray</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
