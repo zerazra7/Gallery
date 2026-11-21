@@ -1,16 +1,18 @@
-# Erasmus Memories – Photo Gallery
+# Erasmus Memories
 
-A personal gallery website showcasing moments from my Erasmus exchange in Maribor, Slovenia.
+A small website with photos from my Erasmus exchange in Maribor, Slovenia.
+
+**Live:** [zerazra7.github.io/Gallery/gallery](https://zerazra7.github.io/Gallery/gallery/)
 
 ## Features
 - Category filtering (city, friends, nature, travel)
 - Modal lightbox with keyboard navigation (←→ ESC)
 - Auto-playing hero slider
-- Fully responsive, mobile-friendly layout
+- Works on mobile too
 
 ## Tech Stack
-HTML · CSS · Vanilla JavaScript — no external libraries
+HTML, CSS and plain JavaScript, no libraries
 
-## Live Preview
+## Screenshot
 <img width="2850" height="1270" alt="image" src="https://github.com/user-attachments/assets/7a7f6ce2-9f5d-4c89-b0db-4c7dff07c837" />
 
