@@ -1,6 +1,6 @@
 # Erasmus Memories
 
-A small website with photos from my Erasmus exchange in Maribor, Slovenia.
+A small website with photos from my Erasmus exchange in Maribor, Slovenia. I made it for a web development assignment at the University of Maribor.
 
 **Live:** [zerazra7.github.io/Gallery/gallery](https://zerazra7.github.io/Gallery/gallery/)
 
